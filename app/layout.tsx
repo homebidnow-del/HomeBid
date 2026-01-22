@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "HomeBid",
   description: "HomeBid platform",
 };
@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
