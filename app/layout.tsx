@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HomeBid",
+  description: "HomeBid platform",
+};
+
 export default function RootLayout({
   children,
 }: {
